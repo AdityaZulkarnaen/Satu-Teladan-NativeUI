@@ -1,0 +1,17 @@
+Tutorial alur src :
+📂 src/screens/ → Menampung halaman-halaman aplikasi, seperti Home.js, Profile.js, Login.js, dll.
+📂 src/components/ → Berisi komponen reusable seperti Button.js, Card.js, Header.js, dll.
+📂 src/navigation/ → Mengatur sistem navigasi menggunakan React Navigation.
+📂 src/context/ → Mengelola state global menggunakan Context API (atau bisa pakai Redux jika lebih kompleks).
+📂 src/services/ → Menangani API requests, misalnya untuk fetch data alumni dari backend.
+📂 src/utils/ → Berisi helper functions seperti formatDate.js, getLocation.js, dll.
+📂 config/ → Tempat konfigurasi aplikasi, termasuk tema Tailwind untuk NativeWind.
+
+Rekomendasi Library :
+- Navigation → @react-navigation/native + react-native-screens
+- State Management → react-context-api atau redux-toolkit
+- Fetch API → axios atau react-query
+- UI Styling → nativewind untuk styling Tailwind di React Native
+- Push Notification → expo-notifications
+- Auth (Google, Facebook, dll.) → expo-auth-session
+- Form Handling → react-hook-form untuk validasi input yang lebih mudah
